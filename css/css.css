@@ -1,0 +1,121 @@
+/**
+ * Created by IntelliJ IDEA.
+ * User: Black.freethinker
+ * Date: 12/6/2017
+ * Time: 2:18 AM
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Muli|Quicksand|Yantramanav|Pontano+Sans|Arsenal);
+
+
+/* customized scroll bar */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+    border-radius: 0px;
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 90px rgba(0,0,0,0.5);
+}
+::-moz-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+body {
+    font-family: 'Pontano Sans';
+    font-family: 'Muli';
+    font-family: 'Quicksand';
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Quicksand';
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.bar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: 1px solid #b7b7b7;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #b7b7b7;
+    }
+}
+
+.blockquote-reverse sup {
+    font-size: 20px;
+}
+
+.blockquote-reverse::before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.row.sections {
+    margin-top: 40px;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.service img {
+    margin-top: 30px;
+}
+
+.form-control {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-top: transparent;
+    border-bottom: 1px solid #eee;
+    border-right: transparent;
+    border-left: transparent;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #9b9b9b;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea {
+    overflow-x: hidden;
+}
