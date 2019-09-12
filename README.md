@@ -1,1 +1,3 @@
-# single-page-with-smooth-scroll
+# single-page
+
+Built using bootstrap
